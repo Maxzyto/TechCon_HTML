@@ -1,5 +1,16 @@
 {
   "extends": [
     "development"
-  ]
+  ],
+  "hints": {
+    "disown-opener": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "frame-title": "off"
+      }
+    ],
+    "compat-api/html": "off",
+    "no-inline-styles": "off"
+  }
 }
